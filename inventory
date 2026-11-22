@@ -30,6 +30,13 @@ mysql
 shipping
 payment
 
+[localhost]
+localhost
+[localhost:vars]
+
+COURSE="Devops from inventory"
+TRAINER="Satya"
+DURATION="120HRS"
 
 
 

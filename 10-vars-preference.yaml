@@ -7,9 +7,9 @@
     WISHES: "Morning from PLAY level"
   tasks:
   - name: check arg variables
-    #vars:
-      #PERSON: "Satya from task level"
-      #WISHES: "Morning from task level"
+    # vars:
+    #   PERSON: "Satya from task level"
+    #   WISHES: "Morning from task level"
     ansible.builtin.debug:
       msg: "Hello {{PERSON}}, Good {{WISHES}}"
 

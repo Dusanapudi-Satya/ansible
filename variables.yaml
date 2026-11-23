@@ -2,3 +2,5 @@
     COURSE: "Devops"
     TRAINER: "Satya"
     DURATION: "120HRS"
+    PERSON: "Satya from variables file"
+    WISHES: "Morning from variables file"

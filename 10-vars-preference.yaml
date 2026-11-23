@@ -1,12 +1,12 @@
 - name:  variables from PLAY level
   hosts: localhost 
-  vars_prompt:
-  - name: USERNAME
-    prompt: Please enter your username
-    private: false
-  - name: PASSWORD
-    prompt: Please enter your password
-    private: true
+  # vars_prompt:
+  # - name: USERNAME
+  #   prompt: Please enter your username
+  #   private: false
+  # - name: PASSWORD
+  #   prompt: Please enter your password
+  #   private: true
   # vars_files:
   # - variables.yaml
   # vars:

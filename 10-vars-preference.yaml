@@ -1,7 +1,14 @@
 - name:  variables from PLAY level
   hosts: localhost 
-  vars_files:
-  - variables.yaml
+  vars_prompt:
+  - name: USERNAME
+    prompt: Please enter your username
+    private: false
+  - name: PASSWORD
+    prompt: Please enter your password
+    private: true
+  # vars_files:
+  # - variables.yaml
   vars:
     PERSON: "Satya from PLAY level"
     WISHES: "Morning from PLAY level"
@@ -15,4 +22,5 @@
 
 # 1. Command line args - variables 
 # 2. Task level - variables 
-# 3. Command line args- variables 
+# 3. variables from File
+

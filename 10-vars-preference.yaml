@@ -9,9 +9,9 @@
     private: true
   # vars_files:
   # - variables.yaml
-  vars:
-    PERSON: "Satya from PLAY level"
-    WISHES: "Morning from PLAY level"
+  # vars:
+  #   PERSON: "Satya from PLAY level"
+  #   WISHES: "Morning from PLAY level"
   tasks:
   - name: check arg variables
     # vars:

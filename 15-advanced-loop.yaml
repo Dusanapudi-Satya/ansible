@@ -4,8 +4,8 @@
   tasks:
     - name: install packages
       ansible.builtin.package:
-        name: "{{item}}" # item is default keyword
-        state: present
+        name: "{{item.name}}" # item is default keyword
+        state: "{{item.state}}" # item is default keyword
       loop:
         - {name: 'nginx', state: 'absent'}
         - {name: 'git', state: 'absent'}

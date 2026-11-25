@@ -5,6 +5,7 @@
     - name: install packages
       ansible.builtin.package:
         name: "{{item}}" # item is default keyword
+        state: present
       loop:
         - nginx
         - git 
